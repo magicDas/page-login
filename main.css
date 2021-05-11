@@ -528,7 +528,7 @@ table td {
 	flex-direction: column;
 	font-size: 20px;
 }
-.description-form {
+/*.description-form {
 
 }
 a.gb1, a.gb4 {
@@ -537,7 +537,7 @@ a.gb1, a.gb4 {
 .gb1 {
 	margin: 0;
 	padding: 5px 15px;
-}
+}*/
 .email-pass {
 	position: relative;
 }
