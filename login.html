@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+		<title>Speak Tutor</title>
+	    <link rel="stylesheet" href="main.css" type="text/css">  
+		<link rel="stylesheet" href="vld.css" type="text/css">
+		<script src="https://kit.fontawesome.com/db81bbe8fb.js" crossorigin="anonymous"></script>	
+	</head>
+	
+<body>
+	<header class="page-header page-fixed-header">
+		<div id="gbar">
+			<nobr>
+
+			        <a href="index.html"><img class="page-logo" src="logob.png" alt=""></a>  
+			     	<a class="gb1" href="index.html">HOME</a>  
+					<a class="gb1" href="details.html">DETAILS</a> 
+				    <a class="gb1" href="catalog.html?begi=0&numb=20&lang=uk">EXERCISES</a>  
+			    	<a class="gb1" href="help.html">HELP</a>  
+			    	<a class="gb1" href="terms.html">TERMS</a>  
+			    	<a class="gb1" href="chats.html">CHATS</a> 
+					<a class="gb1" href="classes.html">CLASSES</a>
+				    <a class="gb1" href="lucky.html?begi=0&numb=20&lang=uk">LUCKY READER</a>
+					
+			</nobr>
+		</div>   
+
+		<div id="guser" width="100%">
+		    <nobr> 
+				<a class="gb1 active" href="login.html"><img src="login.png" width="16" height="16"> LOG IN</a>
+				<a class="gb1" href="regi.html?lang=en">SIGN UP</a>				   
+		      
+			    <a class="gb1" href="login.html">EN</a>
+				<a class="gb1 active" href="login.html">UK</a>
+				<a class="gb1" href="login.html">PL</a>
+				<a class="gb1" href="login.html">RU</a>  
+				<!-- <img src="en-GB.png" width="16" height="16"> -->
+		    
+		    </nobr>
+		</div>    
+	</header>	
+	<div class="main-content"> 
+		<div>
+			<span class="circle"></span>
+			<span class="info-desc info-desc--title">LOG IN - вхід в акаунт користувача</span> <br>	<br>	
+		</div>
+
+		<div class="container">			
+
+	    	<div class="login-form">
+
+	    		<div class="begin">
+	    			Log In					
+				</div>
+
+				<div class="box-form">
+		            <form action="login1" method="post">				 
+						<div class="result--item1">
+		                    <div class="email-pass">
+		                    	<label for="login">
+		                    		<span class="abz">Input Email or Username</span>
+		                    	</label><br>
+		                    	
+		                    	<input type="text" id="login" name="login"><i class="far fa-user"></i><br>
+
+								<p class="errormass" id="loginerror"></p>
+							</div>
+							
+							<br>
+							<div  class="email-pass">
+								<label for="pass">
+									<span class="abz">Input Password</span>
+								</label><br>
+								<input type="password" id="pass" name="password"><i class="fas fa-key"></i><br>
+								<p class="errormass" id="passworderror"></p>	
+								
+							</div>
+							<br><br>
+							
+							<!--<div class="btn">
+								<input type="submit" class="add_button" value="LOG IN"> 
+							</div>	-->
+							<button type="submit" class=" btn add_button">
+								<i class="fas fa-sign-in-alt"></i>
+							</button>
+		                    	 
+		   					
+					
+		                </div>
+					</form>
+				</div>
+
+	    	</div>
+
+		    <div class="description-form">
+		    	<div class="result--item">
+		    		<span class="wrn">FAIL LOGIN:7</span> -  повідомлення означає, що ввели  неправильний або логін або пароль. <br>
+		    	</div>
+		    	<br>
+		    	<div class="result--item">
+		    		<span class="wrn">YOUR ACCESS IS BLOCKED</span> -  повідомлення означає, що доступ до Вашого аккаунту заблокований адміністрацією сайту. <br>
+		    	</div>
+		    	<br>
+		    	<div class="result--item">
+		    		<span class="wrn">YOU HAVE UNPAID TIME</span> - повідомлення означає, що доступ до Вашого аккаунту заблокований автоматично, бо маєте несплачений об'єм секунд, який треба сплатити, щоб продовжити користуватися сервісом <br>
+		    	</div>
+		    	<br>
+		    	<div class="result--item">
+		    		<span class="wrn">VERIFY YOUR EMAIL PLEASE</span> - повідомлення означає, що треба зайти на свій акаунт через посилання вислане на емейл, вказаний при реєстрації <br>
+		    	</div>
+		    </div>
+
+		</div>
+				
+	</div>		
+			
+	<script src="login.js"></script>
+</body>
+</html>

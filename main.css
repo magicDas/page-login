@@ -1,0 +1,583 @@
+@import "http://fonts.fontstorage.com/import/adventpro.css";
+
+/*-------------шрифт установлен для всего документа + отступы от края документа--------------*/
+body {
+	margin: 0 8px 8px 8px;
+	
+	/* -- font-family: 'Montserrat', sans-serif; --*/
+	font-family: 'Calibri';
+}
+
+
+/*---------------------------*/
+
+h5 {
+	width: 100%; 
+	font-family:"Calibri"; 
+	display:none; color: 
+	black; 
+	font: 70% Calibri; 
+	letter-spacing: normal;  
+	font-weight:normal;
+}
+
+h1 {
+	width: 100%; 
+	font-family:"Calibri";
+	display:inline; color: black; 
+	font-size: 28px; 
+	letter-spacing: normal;  
+	font-weight:normal;
+}
+
+
+
+
+
+
+.disabled {
+	pointer-events: none;
+	color:  white; /*rgb(222, 222, 222); */
+	text-decoration: none;
+}
+
+.disabled-1 {
+	color: red;
+	pointer-events: none;
+	background-color: yellow;
+	text-decoration: none;
+}
+
+
+
+
+/* Main text */
+
+.results-title {
+	margin-top: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: white;
+
+}
+
+.results-title-text {
+	margin: 0;
+	color: white
+}
+
+.main-info-block {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	color: #000;
+}
+
+.times {
+/*-	font-family: Georgia, 'Times New Roman', Times, serif; --*/
+    font-family: Calibri;
+	font-size: 18px;
+	color: #000;
+}
+
+.descr {
+/*-	font-family: Georgia, 'Times New Roman', Times, serif; --*/
+    font-family: Calibri;
+	font-size: 20px;
+	color: #000;
+}
+
+
+
+.table-checkbox, .table-audio {
+	font-family:"Calibri"; 	font-size: 18px;	color: black;
+	width: 30px;
+}
+
+
+.table-lang {
+	width: 16px;
+}
+
+/*-------------------------------*/
+
+	h6 {width: 100%; display:inline; color: black;  background: #00A1F1;  }
+	h7 {width: 100%; display:inline; color: black;  background: #00A1F1;  }
+
+.prokrutka { 
+	height: 450px; 
+	width: 100%; 
+	background: #fff; 
+	border: 1px solid #C1C1C1; 
+	#overflow-x: scroll; 
+	overflow-y: scroll;
+}
+
+.prokrutka1 { 
+	height: 250px; 
+	width: 100%; 
+	background: #fff; 
+	border: 1px solid #C1C1C1; 
+	#overflow-x: scroll; 
+	overflow-y: scroll;
+}
+.prokrutka2 { 
+	height: 600px; 
+	width: 100%; 
+	background: #fff; 
+	border: 1px solid #C1C1C1; 
+	#overflow-x: scroll; 
+	overflow-y: scroll;
+}
+
+
+.content {
+	padding: 2px 20px;
+}
+
+#transcript {
+	font-size: 13px;
+	height: 72px;
+}
+
+
+
+.fft { 	
+	width: 100px; 
+	height: 50px; 
+}	
+
+#nomi {
+	visibility: hidden;
+}	
+
+.btn {
+	width: 100%;
+	max-width: 80px;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.bttn {
+	background: #C3D9FF;
+	height: 35px;
+}
+
+.bttn-nomi {
+	background: #C3D9FF;
+	height: 35px;
+	margin-top: 32px;
+}
+
+/* table {	font-family:"Calibri"; 	font-size: 26px;	color: black; } */
+
+.text {/*- тут меняются стили для текста слева*/
+	/*font-size: 26px;      */
+     font-family:"Calibri"; 	font-size: 26px;	color: black;
+}
+
+.voca {/*- тут меняются стили для текста справа*/
+     font-family:"Calibri"; 	font-size: 24px;	color: black;
+}
+
+/*.text, .voca - тут можно ставить отдельные стили для двух колонок. */
+.inner {   
+  #width: 130px; 
+  font-family:"Calibri"; 	font-size: 18px;	color: black;
+  display: inline-block;
+  border: dotted;
+  border-width: 1px;
+  border-color: rgb(0, 161, 241);
+}
+
+/*** VO start ***/
+.results-title {
+	background: #87CEFA;
+}
+.main-info-block table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.main-info-block table tr {
+	border-bottom: 1px solid rgb(148, 212, 237);
+}
+.main-info-block table tr:nth-of-type(2n) {
+	background: #EBF4FA;
+}
+.main-info-block .result--item {
+	font-family:"Calibri"; 	font-size: 18px;	color: black;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgb(148, 212, 237);
+}
+
+.main-info-block .result--item1 {
+	font-family:"Calibri"; 	font-size: 22px;	color: black;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgb(148, 212, 237);
+}
+
+/*** VO end ***/
+
+
+
+#gbar,#guser{font-size:18px;padding-right:8px;padding-top:1px !important;}
+#gbar{margin-top: 1px;padding-left:8px;height:20px}
+#guser{padding-bottom:1px !important;text-align:right} 
+/*#guser{margin-top: 1px;padding-left:8px;height:20px;text-align:right}   #c9d7f1 */
+
+.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}
+.gbh{height:0;position:absolute;top:23px;width:100%}
+@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top;transition: all .5s;}
+#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}
+a.gb1,a.gb4{color:#00c !important}
+.gbi .gb4{color:#dd8e27 !important}
+.gbf .gb4{color:#900 !important}
+.gb1:hover{background: lemonchiffon; }
+.gb1:active{background: white; }
+.active {background: white; }
+
+/*--------#EBF4FA-------*/
+
+
+
+.page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    line-height: 50px;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -ms-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+     background:  #EBF4FA;    /* lightblue; */
+}
+
+.page-header {
+    margin: 0;
+}
+
+/* //Стили для логотипа  */
+
+.page-fixed-header {
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -ms-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+
+    /* box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.3); */
+}
+
+
+.ok {  
+       
+       background: #bbff99;
+	   
+}
+
+.fail {  
+       
+       background: lemonchiffon;  
+	   
+}
+
+
+/*--------перетягиваем из style2.css -------*/
+
+.errors { font-family: 'Calibri';
+		font-size: 26px;
+	background: lemonchiffon;   }
+
+.okl {  font-family: 'Calibri';
+		font-size: 26px;
+		background: #bbff99;
+	}
+
+
+/** ins **/
+
+
+
+
+
+
+.main-content {
+    position:  relative;
+    top: 5vw;
+  
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.img_block {
+    padding: 0 9px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background: rgb( 194,225,233);
+    padding: 0 11px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.info-desc {
+    font-family: 'Calibri';                
+/*	!Georgia, 'Times New Roman', Times, serif;*/
+    font-size: 20px;
+    color: #000;
+}
+
+
+
+
+.content-section {
+    margin: 5px 0;
+}
+
+.info-desc--title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text_block {
+    text-align: justify;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.lck {
+	font-family: "Consolas"; 	font-size: 16px;	color: black;
+    
+}
+
+/*****===== styles =====*****/
+
+.page-logo {
+    width: 127px;
+}
+
+.signin_button:hover {
+    background: lemonchiffon;
+}
+
+.page-logo {
+    margin-right: 40px;
+    position: relative;
+    top: -4px;
+}
+
+
+/* ---FORM INPUT*/
+.form-login {  
+    width: 25%;
+}
+
+.form-login_block  input {
+    width: 100%;
+}
+.form-login p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.add_button {
+    background: rgb( 194,225,233);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-right: 42px;
+}
+
+.add_button:hover {
+    background: lemonchiffon;
+    border: none;
+}
+
+.signin_button {
+    line-height: 30px;
+}
+/*------------------------------------*/
+
+
+
+
+
+
+.btn1 { border: 1px solid black; 
+       
+       background: gainsboro;
+	   padding:0px 6px 0px 6px;
+}
+
+.lnk { color:  blue;  text-decoration: underline; }
+.wrn {  background: lemonchiffon; }
+.abz {  background: #EBF4FA; }
+
+
+/*----
+.side {
+	border-left: 1px solid rgb(148, 212, 237);
+    height: 100vh;
+    margin-left: 10px;
+    padding: 0 20px;
+}
+
+---*/
+
+.side {
+	border-left: 1px solid rgb(148, 212, 237);
+    min-height: 100vh;
+    margin-left: 10px;
+    padding: 0 20px;
+	position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+table td {
+	position: relative;
+}
+
+
+.main-content .container{
+	display: flex;
+	justify-content: center;
+	/*border: 2px solid #EBF4FA;*/
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 20px;
+}	
+.main-content .container .login-form {
+	background-color: #fff;
+	border: 2px solid #EBF4FA;
+	margin: 20px 30px 75px 30px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 18px #EBF4FA;
+	max-width: 300px;
+	flex-direction: column;
+	padding: 0px 26px;
+	transition: all .2s ease-in;
+}
+.main-content .container .login-form form input
+{
+	border: 1px solid #EBF4FA;
+    background: aliceblue;
+    line-height: 40px;
+    border-radius: 30px;
+    width: 140px;
+    outline: none;
+   padding: 2px 40px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.main-content .container .login-form form input:hover,
+.main-content .container .login-form form input:focus  {
+	border-color: #ccc;
+}
+.main-content .container .login-form:hover
+{
+	
+    box-shadow: 1px 1px 28px #9ab9de;
+    transition: all .2s ease-in;
+}
+
+.main-content .container .login-form .add_button {
+	width: 150px;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.main-content .container .login-form .add_button:hover 
+{
+	background-color: #FFFACD;
+	border: 1px solid #ccc;
+}
+
+.main-content .container .login-form form .result--item1{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main-content .container .login-form form .abz {
+	/*font-weight: 600;*/
+	font-size: 16px;
+	background: transparent;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+
+.description-form {
+	width: 60%;
+	display: flex;
+	padding-left: 30px;
+	flex-direction: column;
+	font-size: 20px;
+}
+.description-form {
+
+}
+a.gb1, a.gb4 {
+	text-decoration: none !important;
+}
+.gb1 {
+	margin: 0;
+	padding: 5px 15px;
+}
+.email-pass {
+	position: relative;
+}
+.email-pass i {
+	position: absolute;
+	top:43px;
+	left: 15px;
+	width: 15px;
+	color: #8c8c8c;
+}
+
+.btn {
+		border: 1px solid #EBF4FA;
+	    background: aliceblue;
+	    line-height: 40px;
+	    border-radius: 30px;
+	    min-width: 140px;
+}
+.btn i {
+	font-size: 20px;
+}
+
+.begin {
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    background: #bad9ff;
+    border:2px solid #bad9ff;
+    color: #000;
+    transition: all .2s ease-in;
+}
+.headf {
+	padding: 0;
+}
+.box-form {
+	padding: 15px 60px 50px;
+}
+.main-content .container .login-form:hover .begin {
+	color: #fff;
+	transition: all .2s ease-in;
+}
